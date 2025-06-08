@@ -8,9 +8,9 @@ RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     libmcrypt-dev \
     libxml2-dev \
-    libonig-dev \  # Add this line to install oniguruma
-    && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd mysqli xml mbstring
+    libonig-dev && \
+    docker-php-ext-configure gd --with-freetype --with-jpeg && \
+    docker-php-ext-install gd mysqli xml mbstring
 
 # Enable Apache rewrite module
 RUN a2enmod rewrite
