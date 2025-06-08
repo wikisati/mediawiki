@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     libicu-dev \
     libonig-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd mysqli xml mbstring calendar intl
+    && docker-php-ext-install gd mysqli xml mbstring calendar intl pdo_mysql
 
 # Enable Apache rewrite module
 RUN a2enmod rewrite
