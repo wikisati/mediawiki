@@ -15,6 +15,9 @@ RUN apt-get update && apt-get install -y \
 # Enable Apache rewrite module
 RUN a2enmod rewrite
 
+# Configure Apache to avoid the "ServerName" warning
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
 # Set the working directory to /var/www/html
 WORKDIR /var/www/html
 
