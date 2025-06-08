@@ -57,11 +57,12 @@ $wgEnotifWatchlist = false; # UPO
 $wgEmailAuthentication = true;
 
 ## Database settings
+# Database settings
 $wgDBtype = "mysql";
-$wgDBserver = "localhost";
-$wgDBname = "my_wiki";
-$wgDBuser = "root";
-$wgDBpassword = "";
+$wgDBserver = "sql107.infinityfree.com";    // MySQL Hostname
+$wgDBname = "if0_39185534_XXX";             // MySQL Database Name
+$wgDBuser = "if0_39185534";                 // MySQL Username
+$wgDBpassword = "Gd2XtObzOl";               // MySQL Password
 
 # MySQL specific settings
 $wgDBprefix = "";
