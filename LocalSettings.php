@@ -60,7 +60,7 @@ $wgEmailAuthentication = true;
 # Database settings
 $wgDBtype = "mysql";
 $wgDBserver = "sql107.infinityfree.com";    // MySQL Hostname
-$wgDBname = "if0_39185534_XXX";             // MySQL Database Name
+$wgDBname = "if0_39185534_my_wiki";             // MySQL Database Name
 $wgDBuser = "if0_39185534";                 // MySQL Username
 $wgDBpassword = "Gd2XtObzOl";               // MySQL Password
 
