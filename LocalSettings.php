@@ -32,7 +32,7 @@ $wgMetaNamespace = "Wiki_Boss";
 $wgScriptPath = "/mediawiki";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://localhost";
+$wgServer = "https://mediawiki.ct.ws";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -81,7 +81,7 @@ $wgMemCachedServers = [];
 
 ## To enable image uploads, make sure the 'images' directory
 ## is writable, then set this to true:
-$wgEnableUploads = false;
+$wgEnableUploads = true;
 #$wgUseImageMagick = true;
 #$wgImageMagickConvertCommand = "/usr/bin/convert";
 
